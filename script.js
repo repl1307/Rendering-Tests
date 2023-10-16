@@ -43,7 +43,6 @@ async function runTests(){
     for(const child of parent.children){
       child.classList.add('sample-class');
     }
-    alert(Date.now()-startTime);
   });
   //creating and appending elements with some styling
   createAndTest((parent) => {
